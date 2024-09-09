@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"c46bde71aa46d065","type":"text","text":"**Main Thesis Goal**\n\nAchieving semantic #sensor-fusion using #active-inference ","x":-740,"y":-900,"width":250,"height":140,"color":"1"},
+		{"id":"fee14a032b66a8fc","x":-795,"y":-720,"width":360,"height":200,"color":"2","type":"text","text":"**Main Literature Question**(*First Iteration*)\n\nHow do existing solutions for #sensor-fusion already align with/ are similar to #active-inference "},
+		{"id":"24c303b83d745e07","x":-920,"y":-460,"width":250,"height":120,"color":"3","type":"text","text":"**Sub-Question 1**\n\nWhat is #active-inference?"},
+		{"id":"68e788d0bffde9e5","x":-1070,"y":-280,"width":400,"height":400,"color":"4","type":"file","file":"Paper/Karl Friston/A Free Energy Principle for the Brain.md"},
+		{"id":"75ec336f7ede1f3e","x":-560,"y":-460,"width":250,"height":120,"type":"text","text":"**Sub-Question 2**\n\nWhat is the current state of the art in #sensor-fusion"}
+	],
+	"edges":[
+		{"id":"074b123c6e3e8608","fromNode":"c46bde71aa46d065","fromSide":"bottom","toNode":"fee14a032b66a8fc","toSide":"top","color":"6"},
+		{"id":"3e8470ee0704a7fe","fromNode":"fee14a032b66a8fc","fromSide":"bottom","toNode":"24c303b83d745e07","toSide":"top","color":"6"},
+		{"id":"634c7d9f99884f5f","fromNode":"24c303b83d745e07","fromSide":"bottom","toNode":"68e788d0bffde9e5","toSide":"top","color":"6"},
+		{"id":"fa8eff179a54fea2","fromNode":"fee14a032b66a8fc","fromSide":"bottom","toNode":"75ec336f7ede1f3e","toSide":"top","color":"6"}
+	]
+}

@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "16e43e2942e5ea1f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ddc1310e4810bcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "127b3c149dd4f11e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper/Object-Based/Object-Based Active Inference.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4966513e281b508d",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Main.canvas",
+                "viewState": {
+                  "x": -409.62589760065094,
+                  "y": -576.5374134993556,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "90f7fe83e1896918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Free Energy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1aa5561ecf49d8d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "a5d73fb59cb01d34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b985913e2f7a422d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ae3237fa6d053157",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#conditional-density",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12d71746a45a494d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "dd6a25457ee08f80",
+    "type": "split",
+    "children": [
+      {
+        "id": "71791865d2dd4a91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c0e4dbe3cef701bf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Main.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "215e6a2ac8a0a1f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Main.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4dba97e4ce3e652f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eaf3799751060b60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Main.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4966513e281b508d",
+  "lastOpenFiles": [
+    "Paper/Karl Friston/A Free Energy Principle for the Brain.md",
+    "Main.canvas",
+    "Free Energy.md",
+    "Paper/Sensor Fusion/Sensor Fusion for Semantic Segmentation of Urban Scenes.md",
+    "Paper/Hybrid predictive coding. Inferring, fast and  slow.md",
+    "Paper/Sensor Fusion",
+    "Paper/Robotic Active Tactile Sensing Inspired  by Serotonergic Modulation Using Active  Inference.md",
+    "Paper/Object-Based/Object-Based Active Inference.md",
+    "Paper/Surveys",
+    "Paper/Object-Based",
+    "Paper/Karl Friston",
+    "Paper"
+  ]
+}
