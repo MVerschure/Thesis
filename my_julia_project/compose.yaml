@@ -1,0 +1,16 @@
+services:
+  julia:
+    image: julia_test:latest
+    working_dir: /ws
+    environment:
+      QT_X11_NO_MITSHM: 1
+      TERM: $TERM
+      DISPLAY: $DISPLAY
+    # devices:
+    #   - "/dev/dri:/dev/dri"
+    volumes:
+      - ./:/ws
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $XAUTHORITY:/root/.Xauthority
+    command: julia --project=. src/main.jl
+    
