@@ -1,0 +1,5 @@
+This paper conducted a broad survey study on sensor fusion in 3 different field: healtcare, military and robotics. 
+
+In addition to detecting the presence of objects, tracking certain objects and targets is heavily employed in the Military. In [25], they integrated three techniques, Deep Learning, Kalman filter, and a correlator to track Aerial targets from imagery information.
+
+Sensor fusion techniques such as extended Kalman Filtering(KF) [39], [40] and it variants [41] had been used in robotics for an object estimation [42], a robot pose estimation, localization [43], [44] and navigation [45]. Kalman filter (KF) is normally used in real time applications to fuse dynamic sensor information [46]. According to [38], KF and EKF are the most common techniques for robot localization, however, because KF or EKF are fusion methods which embrace iterative algorithms to handle non-linear and linear models, the convergence is always uncertain [47]. The desired state representation is based on the sensor input which is known and fixed upfront. Authors in [41], however, m

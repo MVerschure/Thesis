@@ -1,15 +1,31 @@
 {
 	"nodes":[
 		{"id":"c46bde71aa46d065","type":"text","text":"**Main Thesis Goal**\n\nAchieving semantic #sensor-fusion using #active-inference ","x":-740,"y":-900,"width":250,"height":140,"color":"1"},
-		{"id":"fee14a032b66a8fc","x":-795,"y":-720,"width":360,"height":200,"color":"2","type":"text","text":"**Main Literature Question**(*First Iteration*)\n\nHow do existing solutions for #sensor-fusion already align with/ are similar to #active-inference "},
-		{"id":"24c303b83d745e07","x":-920,"y":-460,"width":250,"height":120,"color":"3","type":"text","text":"**Sub-Question 1**\n\nWhat is #active-inference?"},
-		{"id":"68e788d0bffde9e5","x":-1070,"y":-280,"width":400,"height":400,"color":"4","type":"file","file":"Paper/Karl Friston/A Free Energy Principle for the Brain.md"},
-		{"id":"75ec336f7ede1f3e","x":-560,"y":-460,"width":250,"height":120,"type":"text","text":"**Sub-Question 2**\n\nWhat is the current state of the art in #sensor-fusion"}
+		{"id":"fee14a032b66a8fc","type":"text","text":"**Main Literature Question**(*First Iteration*)\n\nHow do existing solutions for #sensor-fusion already align with/ are similar to #active-inference ","x":-795,"y":-720,"width":360,"height":200,"color":"2"},
+		{"id":"24c303b83d745e07","type":"text","text":"**Sub-Question 1**\n\nWhat is #active-inference?","x":-920,"y":-460,"width":250,"height":120,"color":"3"},
+		{"id":"68e788d0bffde9e5","type":"file","file":"Active Inference/Karl Friston/A Free Energy Principle for the Brain.md","x":-1070,"y":-280,"width":400,"height":400,"color":"4"},
+		{"id":"75ec336f7ede1f3e","type":"text","text":"**Sub-Question 2**\n\nWhat is the current state of the art in #sensor-fusion","x":-575,"y":-460,"width":280,"height":120,"color":"3"},
+		{"id":"068137d76592b123","type":"text","text":"**Sub-Question 3**\n\nWhat are the similarities between the current state of the art #sensor-fusion methods and #active-inference?","x":-220,"y":-460,"width":340,"height":160,"color":"3"},
+		{"id":"87b47397b9b75d2e","type":"text","text":"The main method seems to be a #Kalman-filter. Basically it is the regular version of the #Kalman-filter with some minor changes to obtain an observation $Y_{fusion}$.\n\nIf for a single sensor $Y = HX$, with observation matrix $H$ and state vector $X$, then a new observation matrix $H_{fusion}$ can be created as $H_{fusion}=[H_1, \\ldots, H_n]^T$ to fuse $n$ sensors. $H_i$ is the observation matrix of an individual sensor. \n\nThe covariance matrix $R_{fusion}$, related to the accuracy captured in $H_{fusion}$, can be obtained in a similar matter.","x":-575,"y":-280,"width":280,"height":620,"color":"4"},
+		{"id":"4630f813134218c2","type":"text","text":"If the belief state of an object is represented by $\\mu = [\\textrm{position}, \\textrm{velocity}]$, There is a 2 by 2 covariance matrix $P$ representing the uncertainties in the vector $\\mu$. \n\nThe #Kalman-filter produces the *Optimal Kalman Gain* which aims to minimize $tr(P) = P_{11} + P_{22}$, i.e. it aims to minimize the sum of the error in the position and velocity. (sharply peaked gaussian)\n\n#active-inference tries to minimize surprise. **Q: What is the conceptual difference between minimizing error and minimizing surprise?**. Another difference between #active-inference and a #Kalman-filter is that the #Kalman-filter only uses known information in it's problem, where as #active-inference is an $\\arg\\min$ problem. \n\nPossible way of finding a solution to obtain sensor fusion using #active-inference: **Formulate an alternative Kalman Gain that minimizes surprise OR just use the trick of *merging* sensors and solve the $\\arg\\min$ problem**.","x":-220,"y":-260,"width":340,"height":800,"color":"4"},
+		{"id":"bc472ee9e3b2b69e","type":"text","text":"**Main Literature Question** *(Second Iteration)*\n\nUncertainty in the believe state in #active-inference.","x":200,"y":-685,"width":340,"height":140,"color":"2"},
+		{"id":"b31d297361d7eda6","type":"text","text":"**Main Literature Question** *(Third Iteration)*\n\nHow to handle discrete observations such as classifactions?","x":620,"y":-695,"width":340,"height":160,"color":"2"},
+		{"id":"6dde520c2d25136d","type":"text","text":"The anwser is almost trivial and presented in the paper \"Variational free energy and the Laplace approximation\" in the \"*Laplace approximation*\" section.","x":200,"y":-475,"width":340,"height":160,"color":"4"},
+		{"id":"1c1ddc32ec4b6a6b","type":"text","text":"**Sub-Question 1**\n\nHow to identify a \"spread\" in a categorical distributution","x":636,"y":-460,"width":308,"height":130,"color":"3"},
+		{"id":"521d52f618f5e285","x":1000,"y":-460,"width":250,"height":110,"color":"3","type":"text","text":"**Sub-Question 2**\n\nWhat are variational techniques??"}
 	],
 	"edges":[
 		{"id":"074b123c6e3e8608","fromNode":"c46bde71aa46d065","fromSide":"bottom","toNode":"fee14a032b66a8fc","toSide":"top","color":"6"},
 		{"id":"3e8470ee0704a7fe","fromNode":"fee14a032b66a8fc","fromSide":"bottom","toNode":"24c303b83d745e07","toSide":"top","color":"6"},
 		{"id":"634c7d9f99884f5f","fromNode":"24c303b83d745e07","fromSide":"bottom","toNode":"68e788d0bffde9e5","toSide":"top","color":"6"},
-		{"id":"fa8eff179a54fea2","fromNode":"fee14a032b66a8fc","fromSide":"bottom","toNode":"75ec336f7ede1f3e","toSide":"top","color":"6"}
+		{"id":"fa8eff179a54fea2","fromNode":"fee14a032b66a8fc","fromSide":"bottom","toNode":"75ec336f7ede1f3e","toSide":"top","color":"6"},
+		{"id":"182fe6d5394f9a55","fromNode":"fee14a032b66a8fc","fromSide":"bottom","toNode":"068137d76592b123","toSide":"top","color":"6"},
+		{"id":"93805d6a4eb7aafd","fromNode":"75ec336f7ede1f3e","fromSide":"bottom","toNode":"87b47397b9b75d2e","toSide":"top","color":"6"},
+		{"id":"33cec9540ff462a5","fromNode":"068137d76592b123","fromSide":"bottom","toNode":"4630f813134218c2","toSide":"top","color":"6"},
+		{"id":"55584330aa0eaf55","fromNode":"fee14a032b66a8fc","fromSide":"right","toNode":"bc472ee9e3b2b69e","toSide":"left","color":"6"},
+		{"id":"3ffb4e691ff4db0d","fromNode":"bc472ee9e3b2b69e","fromSide":"bottom","toNode":"6dde520c2d25136d","toSide":"top","color":"6"},
+		{"id":"ad59638044eb2e0b","fromNode":"fee14a032b66a8fc","fromSide":"right","toNode":"b31d297361d7eda6","toSide":"left","color":"6"},
+		{"id":"930d6a9fa7478f1e","fromNode":"b31d297361d7eda6","fromSide":"bottom","toNode":"1c1ddc32ec4b6a6b","toSide":"top","color":"6"},
+		{"id":"0b050782fc4431f8","fromNode":"b31d297361d7eda6","fromSide":"bottom","toNode":"521d52f618f5e285","toSide":"top","color":"6"}
 	]
 }

@@ -1,0 +1,26 @@
+#### TODO - Till the END
+- [x] Elaborate on the "Graphical Models" section
+	- [x] Make its purpose clear
+	- [x] Add some examples. 
+- [x] Improve the introduction
+- [x] Finish "Message passing and the Bethe approximation" section:
+	- [x] Add the message passing algorithm to the "Message passing and the Bethe approximation" section 
+	- [x] Add the iterative process.
+	- [x] Add a section on RxInfer and what can be done with it.
+		- [x] Elaborate on the examples
+- [ ] Create "Mean-field Approximation" section
+	- [x] Explain the mean-field approximation
+	- [x] Improve explanation of the mean-field approximation
+	- [ ] Dive into the active inference world
+- [x] Perform a structured search on "variational Bayesian inference" to make sure I didn't miss any options. 
+- [x] Maybe add a thesis specific section on what kind of a graph I would expect, and how this might influence the method I will try to perform. 
+- [x] Structure and add references
+- [ ] Continue with the conclusion
+	- [x] Restate research question
+- [x] Change TITLE
+- [x] Resolve all comments to self.
+- [x] Add captions to figures
+- [x] Make the mathematical notation consistent
+#### Notes (TO ALWAYS CONSIDER)
+- Start each section, maybe even each subsection, with a bit explaing its relevance: How will that section contribute to answering the main research question?
+- 
