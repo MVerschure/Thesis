@@ -1,0 +1,6 @@
+# Ignoring virtual environment for Python
+venv/
+
+# Ingoring "regular" files
+*.pdf
+*.docx
