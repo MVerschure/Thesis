@@ -1,6 +1,8 @@
 services:
   julia:
     image: julia_test:latest
+    # stdin_open: true
+    # tty: true
     working_dir: /ws
     environment:
       QT_X11_NO_MITSHM: 1
@@ -12,5 +14,5 @@ services:
       - ./:/ws
       - /tmp/.X11-unix:/tmp/.X11-unix
       - $XAUTHORITY:/root/.Xauthority
-    command: julia --project=. src/main.jl
+    command: julia --project=. src/simplest_case.jl
     
