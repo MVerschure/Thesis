@@ -11,17 +11,14 @@
             "id": "08c99c9a8b10828d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "SimplestCase.canvas",
-                "viewState": {
-                  "x": 199.39100829362891,
-                  "y": 183.04748773813355,
-                  "zoom": 0
-                }
+                "file": "Progress/2025-01-9.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "SimplestCase"
+              "icon": "lucide-file",
+              "title": "2025-01-9"
             }
           }
         ]
@@ -76,13 +73,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "dd6a25457ee08f80",
@@ -169,8 +164,8 @@
   },
   "active": "08c99c9a8b10828d",
   "lastOpenFiles": [
-    "Progress/2025-01-9.md",
     "SimplestCase.canvas",
+    "Progress/2025-01-9.md",
     "Progress/2025-01-7.md",
     "Progress/2024-12-6.md",
     "Progress/2024-12-9.md",
