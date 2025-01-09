@@ -11,6 +11,8 @@ println("Lets begin!!")
 # does not change in x,y position, but does rotate 10 degrees counter clockwise. A global 
 # coordinate frame is chosen such that the robot starts at (0,0) and the object at (1,0).
 #
+# I'm going to first try a 1D case.
+
 
 using RxInfer, Random
 
@@ -22,14 +24,14 @@ using RxInfer, Random
     x[i][1] ~ Bernoulli(unobserved_prior)  # Initial state
 
     for t in 2:T
-      x[i, t] := x[i, t - 1]  # Transition (here, simply copying the previous state)
+      x[i][t] := x[i][t - 1]  # Transition (here, simply copying the previous state)
       end
   end
 
   # Define the observation model
   for i in 1:size
     for t in 1:length(y)
-      y[i, t] ~ Normal(mean = x[i, t], variance = 0.1)
+      y[i][t] ~ Normal(mean = x[i][t], variance = 0.1)
     end
   end
 end
@@ -42,7 +44,7 @@ dataset = [[0, 0, 0, 0, 0],
            [0, 0, 0, 0, 0]]
 
 result = infer(
-  model = one_dim_model(size = 3, unobserved_prior = 0.5),
+  model = one_dim_model(size = 3, T=5 , unobserved_prior = 0.5),
   data = (y = dataset,)
 )
 

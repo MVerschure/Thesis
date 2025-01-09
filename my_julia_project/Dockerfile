@@ -7,7 +7,7 @@ COPY Project.toml Manifest.toml ./
 RUN julia -e 'using Pkg; Pkg.instantiate()'
 
 # Install additional packages
-RUN julia -e 'using Pkg; Pkg.add(["Plots", "RxInfer", "Random", "StableRNGs", "LinearAlgebra", "StatsPlots", "LaTeXStrings", "DataFrames", "CSV", "GLM"]); Pkg.precompile()'
+RUN julia -e 'using Pkg; Pkg.add(["BenchmarkTools", "Plots", "RxInfer", "Random", "StableRNGs", "LinearAlgebra", "StatsPlots", "LaTeXStrings", "DataFrames", "CSV", "GLM"]); Pkg.precompile()'
 
 # Set up locale
 RUN apt-get update
