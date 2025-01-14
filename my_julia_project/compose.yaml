@@ -14,5 +14,5 @@ services:
       - ./:/ws
       - /tmp/.X11-unix:/tmp/.X11-unix
       - $XAUTHORITY:/root/.Xauthority
-    command: julia --project=. src/simplest_case.jl
+    command: julia --project=. src/toy_example.jl
     
