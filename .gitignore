@@ -2,5 +2,6 @@
 venv/
 
 # Ingoring "regular" files
+*.png
 *.pdf
 *.docx
