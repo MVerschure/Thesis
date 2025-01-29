@@ -1,7 +1,8 @@
 {
 	"nodes":[
-		{"id":"0d3dcc292dc24980","x":-239,"y":-184,"width":399,"height":400,"type":"file","file":"Progress/2025-01-7.md"},
-		{"id":"ceb687174885029a","x":200,"y":-184,"width":400,"height":400,"type":"file","file":"Progress/2025-01-9.md"}
+		{"id":"0d3dcc292dc24980","type":"file","file":"Progress/2025-01-7.md","x":-239,"y":-184,"width":399,"height":400},
+		{"id":"ceb687174885029a","type":"file","file":"Progress/2025-01-9.md","x":200,"y":-184,"width":400,"height":400},
+		{"id":"3ecf05d966fe4428","x":640,"y":-184,"width":400,"height":400,"type":"file","file":"Progress/2025-01-21.md"}
 	],
 	"edges":[]
 }
