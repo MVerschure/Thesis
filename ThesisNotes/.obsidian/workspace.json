@@ -13,30 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progress/2025-02-18.md",
+                "file": "Progress/2025-02-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-18"
+              "title": "2025-02-25"
             }
           },
           {
-            "id": "ec5e5eced6ef11ee",
+            "id": "b834e2b902d9bd46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Progress/2025-02-18.md",
+                "file": "Progress/2025-02-25.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-18"
+              "title": "2025-02-25"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "right": {
     "id": "dd6a25457ee08f80",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Progress/2024-10-29.md",
+                "file": "Progress/2025-02-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2024-10-29"
+              "title": "Backlinks for 2025-02-25"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Progress/2024-10-29.md",
+                "file": "Progress/2025-02-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2024-10-29"
+              "title": "Outgoing links from 2025-02-25"
             }
           },
           {
@@ -155,17 +155,21 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Progress/2024-10-29.md"
+                "file": "Progress/2025-02-25.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-10-29"
+              "title": "Outline of 2025-02-25"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -178,14 +182,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ec5e5eced6ef11ee",
+  "active": "08162542ec26b5db",
   "lastOpenFiles": [
+    "Active Inference/Karl Friston/A Free Energy Principle for the Brain.md",
+    "Progress/2025-02-25.md",
+    "RxInfer/Streamline (Online) Inference.md",
     "Progress/2025-02-12.md",
+    "Progress/2025-02-13.md",
+    "Progress/2025-02-18.md",
+    "Figures/entropy-25-01138-i001.png",
+    "Figures/Screenshot from 2025-02-18 16-03-24.png",
+    "Figures/table.webp",
+    "Figures/entropy-25-01138-g004.webp",
     "Progress/2025-02-6.md",
     "Progress/2025-02-5.md",
-    "Progress/2025-02-18.md",
-    "Progress/2025-02-13.md",
-    "Figures/Screenshot from 2025-02-18 16-03-24.png",
     "Figures/Screenshot from 2025-02-18 15-50-21.png",
     "Figures",
     "Progress/2025-01-27.md",
@@ -200,7 +210,6 @@
     "0D-online.png",
     "hidden_markov_model.png",
     "Progress/2024-11-21.md",
-    "RxInfer/Streamline (Online) Inference.md",
     "RxInfer",
     "SimplestCase.canvas",
     "Progress/2025-01-10.md",
@@ -215,7 +224,6 @@
     "Progress/2024-12-17.md",
     "Progress/2024-12-6.md",
     "Main.canvas",
-    "Planning.md",
     "Progress",
     "Sensor Fusion",
     "Active Inference/Sensor Fusion",
