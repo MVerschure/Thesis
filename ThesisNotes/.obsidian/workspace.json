@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "2025-02-25"
             }
-          },
-          {
-            "id": "b834e2b902d9bd46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progress/2025-02-25.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-02-25"
-            }
           }
         ]
       }
@@ -92,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
-    "collapsed": true
+    "width": 258.5
   },
   "right": {
     "id": "dd6a25457ee08f80",
@@ -184,45 +169,45 @@
   },
   "active": "08162542ec26b5db",
   "lastOpenFiles": [
-    "Active Inference/Karl Friston/A Free Energy Principle for the Brain.md",
-    "Progress/2025-02-25.md",
-    "RxInfer/Streamline (Online) Inference.md",
+    "Progress/2025-02-6.md",
     "Progress/2025-02-12.md",
     "Progress/2025-02-13.md",
     "Progress/2025-02-18.md",
+    "Progress/2025-02-25.md",
+    "Progress/2025-01-29.md",
+    "Progress/2025-01-20.md",
+    "Progress/2025-01-10.md",
+    "Progress/2025-01-9.md",
+    "Progress/2024-12-17.md",
+    "Progress/2024-12-3.md",
+    "Progress/2024-11-12.md",
+    "Progress/2024-10-29.md",
+    "Progress/2024-10-10.md",
+    "Progress/2024-10-7.md",
+    "Progress/2024-10-3.md",
+    "Progress/2024-09-23.md",
+    "Progress/2024-09-20.md",
+    "Progress/2024-09-19.md",
+    "Active Inference/Karl Friston/A Free Energy Principle for the Brain.md",
+    "RxInfer/Streamline (Online) Inference.md",
     "Figures/entropy-25-01138-i001.png",
     "Figures/Screenshot from 2025-02-18 16-03-24.png",
     "Figures/table.webp",
     "Figures/entropy-25-01138-g004.webp",
-    "Progress/2025-02-6.md",
     "Progress/2025-02-5.md",
     "Figures/Screenshot from 2025-02-18 15-50-21.png",
     "Figures",
     "Progress/2025-01-27.md",
     "Progress/2025-02-4.md",
-    "Progress/2025-01-29.md",
     "Progress/2025-01-21.md",
-    "Progress/2025-01-20.md",
     "Progress/2025-01-14.md",
     "1D-Online-free-energy.png",
     "one_dim_model.gif",
     "1D-Static.png",
     "0D-online.png",
     "hidden_markov_model.png",
-    "Progress/2024-11-21.md",
     "RxInfer",
     "SimplestCase.canvas",
-    "Progress/2025-01-10.md",
-    "Progress/2025-01-9.md",
-    "Progress/2025-01-7.md",
-    "Progress/2025-01-6.md",
-    "Progress/2024-09-19.md",
-    "Progress/2024-09-20.md",
-    "Progress/2024-12-3.md",
-    "Progress/2024-12-9.md",
-    "Progress/2024-12-12.md",
-    "Progress/2024-12-17.md",
-    "Progress/2024-12-6.md",
     "Main.canvas",
     "Progress",
     "Sensor Fusion",
